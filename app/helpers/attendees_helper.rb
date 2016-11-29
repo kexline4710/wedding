@@ -1,2 +1,2 @@
-module AttendeesControllerHelper
+module AttendeesHelper
 end
