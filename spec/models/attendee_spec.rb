@@ -1,5 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe Attendee, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "#full_name" do
+    let(:attendee) { FactoryGirl.create(:attendee) }
+
+    it "returns the full name" do
+      expect(attendee.full_name).to eq("Test Name")
+    end
+  end
 end
