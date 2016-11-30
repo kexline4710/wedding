@@ -6,5 +6,7 @@
     "type": "git",
     "url": "https://github.com/kexline4710/wedding.git"
   },
-  "devDependencies": { }
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
