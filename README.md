@@ -11,3 +11,8 @@ My intention is for this to be a boilerplate wedding app.
 - [ ] Login/admin functionality for bride and groom
 - [ ] Implement import/export to see guest list
 - [ ] Send email to guest and admins after an RSVP
+
+## Random Thoughts
+
+* Maybe check out Gulp instead of Grunt? This [gulp-rails-pipeline](https://github.com/vigetlabs/gulp-rails-pipeline) looks interesting. Ugh, front end hurtz.
+* I really like this [wedding icon set](http://www.flaticon.com/packs/wedding-7).
