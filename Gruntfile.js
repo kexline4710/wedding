@@ -6,6 +6,9 @@ module.exports = function(grunt) {
     exec: {
       server: {
         command: "rails server"
+      },
+      test: {
+        command: "rspec"
       }
     }
   });
@@ -19,4 +22,5 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('server', ['exec:server'])
+  grunt.registerTask('test', ['exec:test'])
 }
