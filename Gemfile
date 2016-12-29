@@ -5,6 +5,7 @@ gem 'pg', '~> 0.15'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'sass-rails', '~> 5.0'
 
 group :development, :test do
   gem 'byebug'
