@@ -6,5 +6,13 @@
     "type": "git",
     "url": "https://github.com/kexline4710/wedding.git"
   },
-  "devDependencies": {}
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.18.5"
+  }
 }
